@@ -5,3 +5,4 @@ export default function H1Text({ children }: { children: ReactNode }) {
         <h1 className="font-bold text-4xl pt-5">{children}</h1>
     );
 }
+
