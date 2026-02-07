@@ -3,6 +3,7 @@ import lightIcon from "./assets/light_mode_icon.png"
 import darkIcon from "./assets/dark_mode_icon.png"
 import { useTheme } from "./hooks/useTheme"
 import H1Text from "./components/h1_text"
+import H2Text from "./components/h2_text"
 
 function App() {
   const { isDark } = useTheme()
@@ -16,7 +17,9 @@ function App() {
       <ThemeIconToggle />
     <div className="flex flex-col gap-y-5 w-screen bottom-5 items-center pt-15">
       <H1Text>Welcome to the WIP Silly Cat Cloud homepage!</H1Text>
-      <button data-tally-open="pbBx1b" className="bg-blue-500 px-6 py-3 rounded text-white">
+      <H2Text>The project and the homepage itself is still in beta and WIP access. But,</H2Text>
+      <H2Text>you can always join the waitlist to wait at any time below:</H2Text>
+      <button data-tally-open="pbBx1b" className="bg-cyan-500 px-6 py-3 rounded text-white">
         Join Waitlist
       </button>
       <button className="bg-green-500 py-4 rounded w-33 text-white">
