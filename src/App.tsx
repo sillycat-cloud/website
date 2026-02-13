@@ -95,6 +95,9 @@ function App() {
         
         <H1Text>Did you work the entire day while writting this..?</H1Text>
         <H3Text>Yes, and I have a headache.</H3Text>
+
+        <H1Text>When will it be released?</H1Text>
+        <H3Text>Either when I have time or what time is said in the email waitlist.</H3Text>
       </div>
     </div>
   )
