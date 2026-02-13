@@ -8,6 +8,8 @@ import H3Text from "./components/h3_text"
 import { motion } from "motion/react"
 import { Turnstile } from 'react-turnstile'
 import { useState } from 'react'
+import { Link } from 'react-router-dom';
+
 
 function App() {
   const { isDark } = useTheme()
@@ -37,6 +39,9 @@ function App() {
       />
       <ThemeIconToggle />
       <div id="google_translate_element" className="text-white"></div>
+      <div className="flex flex-col gap-y-5 text-9xl w-screen bottom-5 items-center pt-5">
+        <H3Text>The original PFP of both the light mode and dark mode versions of the PFP is available on <Link to="https://soggy.cat">https://soggy.cat</Link> (We modified the original image to make a dark mode and light mode version and add a subtle blurred circle around the cat for the light mode PFP)</H3Text>
+      </div>
       <div className="flex flex-col gap-y-5 w-screen bottom-5 items-center pt-15">
         <H1Text>Welcome to the WIP Silly Cat Cloud homepage!</H1Text>
         <H2Text>The project and the homepage itself is still in beta and WIP access. But,</H2Text>
