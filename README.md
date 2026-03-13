@@ -2,19 +2,21 @@
 
 > The official website of SillyCat Cloud. Not AI-generated (mostly).
 
+![Status](https://img.shields.io/badge/status-beta-orange)
+![License](https://img.shields.io/github/license/sillycat-cloud/website)
+![Last Commit](https://img.shields.io/github/last-commit/sillycat-cloud/website)
+
+![React](https://img.shields.io/npm/v/react?logo=react&label=react&color=61DAFB)
+![Vite](https://img.shields.io/npm/v/vite?logo=vite&label=vite&color=646CFF)
+![TypeScript](https://img.shields.io/npm/v/typescript?logo=typescript&label=typescript&color=3178C6)
+![Tailwind](https://img.shields.io/npm/v/tailwindcss?logo=tailwindcss&label=tailwind&color=06B6D4)
+![Framer Motion](https://img.shields.io/npm/v/framer-motion?logo=framer&label=framer-motion&color=black)
+![React Router](https://img.shields.io/npm/v/react-router-dom?logo=reactrouter&label=react-router&color=CA4245)
+
 **Live at:** [sillycat.cloud](https://sillycat.cloud) • [vercel mirror (cloudflare verification is broken atm)](https://website-pi-eight-19.vercel.app)
 
 > [!WARNING]
 > This project is in heavy WIP / BETA. Expect bugs, broken stuff, and general silliness.
-
-## Tech Stack
-
-| Tool | Purpose |
-|------|---------|
-| React + Vite | Frontend framework & dev server |
-| TypeScript | Type safety (we try) |
-| TailwindCSS | Styling (yes we used tailwind, no we don't regret it) |
-
 
 ## Building
 
