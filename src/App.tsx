@@ -33,7 +33,6 @@ function App() {
     return
   }
 }
-
   return (
     // Theme toggle, hell yeah
     <div className={`${isDark ? 'bg-gray-900 text-yellow-50' : 'bg-yellow-50 text-black'} min-h-auto text-center gap-y-6 pt-3`}>
