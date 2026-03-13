@@ -1,32 +1,53 @@
-# The homepage of Sillycat Cloud
+# Sillycat.cloud
 
-This is the official homepage of SillyCat Cloud (this one mainly isn't ai)
+> The official website of SillyCat Cloud. Not AI-generated (mostly).
 
-It is currently being hosted on https://sillycat.cloud and https://website-pi-eight-19.vercel.app
+**Live at:** [sillycat.cloud](https://sillycat.cloud) • [vercel mirror (cloudflare verification is broken atm)](https://website-pi-eight-19.vercel.app)
 
-It is currently in heavy WIP and BETA.
+> [!WARNING]
+> This project is in heavy WIP / BETA. Expect bugs, broken stuff, and general silliness.
 
-The tech stack for this is: React + Vite + TailwindCSS (please dont kill me for this) + Typescript
+## Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| React + Vite | Frontend framework & dev server |
+| TypeScript | Type safety (we try) |
+| TailwindCSS | Styling (yes we used tailwind, no we don't regret it) |
+
 
 ## Building
 
-> [!NOTE]
-> You can always fork this repository and make a pull request of your changes or make modifications for yourself of our website. However, please don't resell your modifications nor claim the original website *as your work*.
-
 **Prerequisites:**
-
-- ReactJS
-- Vite (`npx vite`)
-- Typescript and NodeJS + NPM and NPX
+- [Node.js + NPM](https://nodejs.org)
 - [Git](https://git-scm.com/install)
-- A computer
+- A computer (hopefully)
 
-**1**. Open your terminal and type the command `git clone https://github.com/sillycat-cloud/website.git` to clone the repository.
+**1.** Clone the repo:
+```bash
+git clone https://github.com/sillycat-cloud/website.git
+cd website
+```
 
-**2**. Open your coding editor of choice in that folder (`code .` for VSCode)
+**2.** Install dependencies:
+```bash
+npm install
+```
 
-**3**. Start editing! (or not, if you just wanna build and run for the time being)
+**3.** Start the dev server:
+```bash
+npx vite
+# windows/wsl being weird? try:
+npx vite --host
+```
 
-**4**. To build and see the website, run `npx vite` (On Windows or any other OSes, if you have a problem regarding the default IP for your Vite server not working, run `npx vite --host` instead to run the Vite Server on all of your local IPs)
+**4.** Open [http://localhost:5173](http://localhost:5173) or [http://localhost:4000](http://localhost:4000)
+
+## Contributing
+
+Forks and PRs are welcome! Just please:
+- ❌ Don't resell modifications
+- ❌ Don't claim the original site as your own work
+- ✅ Have fun with it
 
 ***Happy contributing!! :DDD***
