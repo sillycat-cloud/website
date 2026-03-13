@@ -14,10 +14,11 @@ import { Link } from 'react-router-dom';
 function App() {
   const { isDark } = useTheme()
   const [token, setToken] = useState('')
-  
+  // ignore why i did two seperate functions for both buttons
   const handleJoinWaitlist = () => {
     if (!token) {
-      alert('Please complete the challenge first!')
+      alert('Please complete the challenge first.')
+      console.log("YOU didnt complete the challange!!11!1! (no waitlist for u until completion >:DD)")
       return
     }
   }
@@ -26,18 +27,22 @@ function App() {
       window.open("https://discord.gg/sZxmbu4ZrG")
       return
   } else {
-    alert("Please complete the challenge first!")
+    // alert does not work for me but i don't care
+    alert("Please complete the challenge first.")
+    console.log("YOU didnt complete the challange!!11!1!")
     return
   }
 }
 
   return (
+    // Theme toggle, hell yeah
     <div className={`${isDark ? 'bg-gray-900 text-yellow-50' : 'bg-yellow-50 text-black'} min-h-auto text-center gap-y-6 pt-3`}>
       <img 
         src={isDark ? darkIcon : lightIcon} 
         className="w-24 h-24 rounded-3xl shadow-lg inline-block" 
       />
       <ThemeIconToggle />
+      {/* the weird and ugly google translation widget */}
       <div id="google_translate_element" className="text-white"></div>
       <div className="flex flex-col gap-y-5 text-9xl w-screen bottom-5 items-center pt-5">
         <H3Text>The original PFP of both the light mode and dark mode versions of the PFP is available on <Link to="https://soggy.cat">https://soggy.cat</Link> (We modified the original image to make a dark mode and light mode version and add a subtle blurred circle around the cat for the light mode PFP)</H3Text>
@@ -47,7 +52,7 @@ function App() {
         <H2Text>The project and the homepage itself is still in beta and WIP access. But,</H2Text>
         <H2Text>you can always join the waitlist to wait at any time below:</H2Text>
         
-        {/* Turnstile Challenge */}
+        {/* Turnstile challange (please don't touch thank you) */}
         <div className="flex justify-center">
           <Turnstile
             sitekey={import.meta.env.VITE_TURNSTILE_SITE_KEY || '3x00000000000000000000FF'}
@@ -58,7 +63,8 @@ function App() {
             refreshExpired="auto"
           />
         </div>
-        
+        {/* how is making these animations so easy with motion??!? */}
+
         <motion.button
           whileHover={{ scale: 1.1, cursor: "pointer" }}
           whileTap={{ scale: 0.95 }}
@@ -81,11 +87,11 @@ function App() {
             !token ? 'bg-gray-400 cursor-not-allowed' : 'bg-green-500'
           }`}
           onClick={handleDiscord}
+          // class tier prevention lol, it works though
           disabled={!token}
         >
           Join the Discord
         </motion.button>
-
         <H1Text>FAQ:</H1Text>
 
         <H1Text>What is Silly Cat Cloud?</H1Text>
