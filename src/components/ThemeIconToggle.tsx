@@ -6,9 +6,8 @@ export default function ThemeIconToggle() {
     <button
       onClick={() => setIsDark(!isDark)}
       aria-label="Toggle theme"
-      className="mt-4 px-4 py-2 rounded-lg bg-gray-800 text-white cursor-pointer"
-    >
-      {isDark ? 'Light Mode' : 'Dark Mode'}
+      className={`${isDark ? 'bg-yellow-50 text-gray-900' : 'bg-gray-900 text-yellow-50'} mt-4 px-4 py-2 rounded-lg cursor-pointer`}    >
+      {isDark ? '☀️' : '🌙'}
     </button>
   )
 }
