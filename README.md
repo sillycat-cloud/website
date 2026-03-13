@@ -52,6 +52,8 @@ Forks and PRs are welcome! Just please:
 - ❌ Don't claim the original site as your own work
 - ✅ Have fun with it
 
+[MIT License](./LICENSE)
+
 ***Happy contributing!! :DDD***
 
 ## Todo(s)
