@@ -51,3 +51,20 @@ Forks and PRs are welcome! Just please:
 - ✅ Have fun with it
 
 ***Happy contributing!! :DDD***
+
+## Todo(s)
+
+- [x] Homepage
+- [x] *Somewhat* setup the panel and stuff
+- [ ] File hosting
+- [x] Make the Waitlist form
+- [x] Add a build guide
+- [x] Rewrite the README.md
+- [ ] Bug fixing
+- [ ] Cloud Storage instead of my PC's
+- [x] Cloudflare Turnstile (Captcha)
+- [ ] More Pages
+- [x] Use Pterodactyl for Game and Hosting Panel
+- [ ] Add more FAQ Questions
+- [ ] Free-time
+- [ ] Release the project officially to the public
