@@ -32,11 +32,26 @@
     "lede": "nothing here is production yet. this is what i'm building.",
     "foot": "game-server hosting is basically the same, except there's no anubis and it uses pterodactyl. might swap pterodactyl for something i wrote myself, haven't decided.",
     "nodes": {
-      "you":    { "label": "you",          "sub": "upload a file" },
-      "anubis": { "label": "anubis",       "sub": "are you a scraper?" },
-      "cf":     { "label": "cloudflare",   "sub": "some cloudflare stuff" },
-      "pi":     { "label": "raspberry pi", "sub": "sitting on my desk" },
-      "back":   { "label": "back to you",  "sub": "with any luck" }
+      "you": {
+        "label": "you",
+        "sub": "upload a file"
+      },
+      "anubis": {
+        "label": "anubis",
+        "sub": "are you a scraper?"
+      },
+      "cf": {
+        "label": "cloudflare",
+        "sub": "some cloudflare stuff"
+      },
+      "pi": {
+        "label": "raspberry pi",
+        "sub": "sitting on my desk"
+      },
+      "back": {
+        "label": "back to you",
+        "sub": "with any luck"
+      }
     }
   },
   "discord": {
@@ -52,12 +67,30 @@
     "eyebrow": "FAQ",
     "heading": "frequently-ish asked questions.",
     "items": [
-      { "q": "What is Silly Cat Cloud?",                  "a": "a very silly, cat-related cloud provider/service, i guess. i was randomly bored one day and thought about making a silly cloud provider. here we are." },
-      { "q": "Is it going to be any good?",               "a": "so far it isnt finished at all, so i really don't know yet. it's my first ever big project so i don't really know what im doing sometimes. but it'll be the best i can do i guess." },
-      { "q": "Is it going to be free?",                   "a": "most probably. i don't really like paywalls since most of the time they're very expensive. so i'll do what i can do with free tiers i guess (except for the domain of course)." },
-      { "q": "Did you work the entire day writting this?","a": "yes, and i have a headache." },
-      { "q": "When will it be released?",                 "a": "either when i have time, or whenever i say in the waitlist email. whichever is later, probably." },
-      { "q": "why's it called sillycat",                  "a": "because the original PFP is from soggy.cat and it is, objectively, a silly cat. we modified it for light/dark mode and added a blurred halo for light. that's the extent of the branding exercise." }
+      {
+        "q": "What is Silly Cat Cloud?",
+        "a": "a very silly, cat-related cloud provider/service, i guess. i was randomly bored one day and thought about making a silly cloud provider. here we are."
+      },
+      {
+        "q": "Is it going to be any good?",
+        "a": "so far it isnt finished at all, so i really don't know yet. it's my first ever big project so i don't really know what im doing sometimes. but it'll be the best i can do i guess."
+      },
+      {
+        "q": "Is it going to be free?",
+        "a": "most probably. i don't really like paywalls since most of the time they're very expensive. so i'll do what i can do with free tiers i guess (except for the domain of course)."
+      },
+      {
+        "q": "Did you work the entire day writting this?",
+        "a": "yes, and i have a headache."
+      },
+      {
+        "q": "When will it be released?",
+        "a": "either when i have time, or whenever i say in the waitlist email. whichever is later, probably."
+      },
+      {
+        "q": "why's it called sillycat",
+        "a": "because the original PFP is from soggy.cat and it is, objectively, a silly cat. we modified it for light/dark mode and added a blurred halo for light. that's the extent of the branding exercise."
+      }
     ]
   },
   "pfp": {
