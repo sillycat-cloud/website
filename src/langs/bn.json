@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "beta": "BETA",
+    "what": "what is this",
+    "how": "how it works",
+    "faq": "faq",
+    "discord": "discord",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAriaLabel": "Toggle theme",
+    "langAriaLabel": "Change language"
+  },
+  "hero": {
+    "eyebrow": "SILLYCAT CLOUD · v0.2 · HEAVY WIP",
+    "titleHtml": "a <span class=\"sc-underline\">silly</span> cloud<br/>built by one person<br/>with a <em>headache</em>.",
+    "lede": "files go through anubis, then some cloudflare stuff, then land on a raspberry pi sitting on my desk. somehow they come back. that's the whole pitch. not AI-generated (mostly).",
+    "waitlistEyebrow": "verify + join",
+    "joinWaitlist": "Join Waitlist",
+    "ctaNoteReady": "good to go >:DD",
+    "ctaNoteNotReady": "solve the challange first or no waitlist for u",
+    "joinedTitle": "you're on the list.",
+    "joinedBody": "i'll email you when things are slightly less broken. thank you for tolerating me.",
+    "statusEyebrow": "CURRENT STATUS",
+    "statusWebsite": "website: up",
+    "statusFileHosting": "file hosting: WIP",
+    "statusGameServers": "game servers: WIP",
+    "statusSleep": "sleep: broken"
+  },
+  "pipes": {
+    "eyebrow": "HOW IT (WILL) WORK",
+    "heading": "the file goes through some pipes.",
+    "lede": "nothing here is production yet. this is what i'm building.",
+    "foot": "game-server hosting is basically the same, except there's no anubis and it uses pterodactyl. might swap pterodactyl for something i wrote myself, haven't decided.",
+    "nodes": {
+      "you": {
+        "label": "you",
+        "sub": "upload a file"
+      },
+      "anubis": {
+        "label": "anubis",
+        "sub": "are you a scraper?"
+      },
+      "cf": {
+        "label": "cloudflare",
+        "sub": "some cloudflare stuff"
+      },
+      "pi": {
+        "label": "raspberry pi",
+        "sub": "sitting on my desk"
+      },
+      "back": {
+        "label": "back to you",
+        "sub": "with any luck"
+      }
+    }
+  },
+  "discord": {
+    "eyebrow": "UPDATES · MEMES · SHOUTING AT BUGS",
+    "heading": "join the discord. it's mostly me.",
+    "body": "if you want updates before i email people, or want to watch me figure out what a reverse proxy is in real time, the discord's where that happens.",
+    "cta": "Join the Discord",
+    "copyInvite": "copy invite",
+    "copied": "copied ✓",
+    "online": "● online · 12"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "heading": "frequently-ish asked questions.",
+    "items": [
+      {
+        "q": "What is Silly Cat Cloud?",
+        "a": "a very silly, cat-related cloud provider/service, i guess. i was randomly bored one day and thought about making a silly cloud provider. here we are."
+      },
+      {
+        "q": "Is it going to be any good?",
+        "a": "so far it isnt finished at all, so i really don't know yet. it's my first ever big project so i don't really know what im doing sometimes. but it'll be the best i can do i guess."
+      },
+      {
+        "q": "Is it going to be free?",
+        "a": "most probably. i don't really like paywalls since most of the time they're very expensive. so i'll do what i can do with free tiers i guess (except for the domain of course)."
+      },
+      {
+        "q": "Did you work the entire day writting this?",
+        "a": "yes, and i have a headache."
+      },
+      {
+        "q": "When will it be released?",
+        "a": "either when i have time, or whenever i say in the waitlist email. whichever is later, probably."
+      },
+      {
+        "q": "why's it called sillycat",
+        "a": "because the original PFP is from soggy.cat and it is, objectively, a silly cat. we modified it for light/dark mode and added a blurred halo for light. that's the extent of the branding exercise."
+      }
+    ]
+  },
+  "pfp": {
+    "eyebrow": "PFP CREDIT",
+    "bodyHtml": "the original cat is from <a class=\"sc-link\" href=\"https://soggy.cat\" target=\"_blank\" rel=\"noreferrer\">soggy.cat</a>. we made a light/dark version and gave it a soft blurred halo on light mode. that's it. that's the remix."
+  },
+  "footer": {
+    "col1Eyebrow": "SILLYCAT.CLOUD",
+    "col1Body": "made with headaches by one person. hosted on a raspberry pi on a desk.",
+    "col2Eyebrow": "LINKS",
+    "col2Github": "github",
+    "col2Discord": "discord",
+    "col2Soggy": "soggy.cat (pfp)",
+    "col3Eyebrow": "STATUS",
+    "col3Body": "everything that exists is up :D",
+    "bottom": "© 2026 · not AI-generated (mostly) · thanks for reading this far >:DD"
+  },
+  "lang": {
+    "menuHead": "language",
+    "unavailableTitle": "this language isnt done yet >:DD",
+    "unavailableBody": "only english + french are translated so far. the rest are on the to-do list (or open for anyone willing to help). you can still stay in {current} — nothing changed.",
+    "unavailableContribute": "help translate on crowdin",
+    "unavailableDismiss": "ok, fine"
+  }
+}
