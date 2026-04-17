@@ -4,6 +4,7 @@ import PipesDiagram from './components/PipesDiagram'
 import DiscordCTA from './components/DiscordCTA'
 import FAQ from './components/FAQ'
 import { PfpCredit, Footer } from './components/FooterBits'
+import UnavailableLangPopup from './components/UnavailableLangPopup'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       </main>
       <PfpCredit />
       <Footer />
+      <UnavailableLangPopup />
     </div>
   )
 }

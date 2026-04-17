@@ -1,6 +1,8 @@
 import { useState } from 'react'
+import { useI18n } from '../i18n/I18nProvider'
 
 export default function DiscordCTA() {
+  const { t } = useI18n()
   const [copied, setCopied] = useState(false)
   const copy = () => {
     navigator.clipboard?.writeText('https://discord.gg/sZxmbu4ZrG')
@@ -11,12 +13,9 @@ export default function DiscordCTA() {
     <section className="sc-section">
       <div className="sc-discord-card">
         <div className="sc-discord-copy">
-          <span className="sc-eyebrow">UPDATES · MEMES · SHOUTING AT BUGS</span>
-          <h2 className="sc-h2">join the discord. it's mostly me.</h2>
-          <p className="sc-p">
-            if you want updates before i email people, or want to watch me figure out
-            what a reverse proxy is in real time, the discord's where that happens.
-          </p>
+          <span className="sc-eyebrow">{t('discord.eyebrow')}</span>
+          <h2 className="sc-h2">{t('discord.heading')}</h2>
+          <p className="sc-p">{t('discord.body')}</p>
           <div className="sc-cta-row">
             <a
               className="sc-btn sc-btn-lime"
@@ -24,15 +23,15 @@ export default function DiscordCTA() {
               target="_blank"
               rel="noreferrer"
             >
-              Join the Discord
+              {t('discord.cta')}
             </a>
             <button className="sc-btn sc-btn-ghost" onClick={copy}>
-              {copied ? 'copied ✓' : 'copy invite'}
+              {copied ? t('discord.copied') : t('discord.copyInvite')}
             </button>
           </div>
         </div>
         <div className="sc-discord-side">
-          <div className="sc-bdg-lime">● online · 12</div>
+          <div className="sc-bdg-lime">{t('discord.online')}</div>
           <div className="sc-discord-channels">
             <div># general</div>
             <div># bug-watch</div>

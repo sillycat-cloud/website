@@ -6,27 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="a silly cloud service. about cats. built by one person with a headache." />
     <title>sillycat.cloud — a silly cloud service</title>
-    <script type="text/javascript">
-      function googleTranslateElementInit() {
-        new google.translate.TranslateElement({
-          pageLanguage: 'en',
-          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-        }, 'google_translate_element');
-      }
-      const params = new URLSearchParams(window.location.search);
-      const lang = params.get('lang');
-      if (lang) {
-        document.cookie = `googtrans=/en/${lang}`;
-        //document.cookie = `googtrans=/en/${lang};domain=.${window.location.host}`; | use when hosting locally ig
-        document.cookie = `googtrans=/en/${lang};domain=.sillycat.cloud`;
-      }
-      </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    <!-- END ADD -->
   </head>
   <body>
-    <!-- hidden mount for google translate engine; our custom switcher drives it via cookie -->
-    <div id="google_translate_element" style="position:absolute;left:-9999px;top:-9999px;" aria-hidden="true"></div>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
     <script async src="https://tally.so/widgets/embed.js"></script>

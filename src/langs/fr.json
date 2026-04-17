@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "beta": "BÊTA",
+    "what": "c'est quoi ce truc",
+    "how": "comment ça marche",
+    "faq": "faq",
+    "discord": "discord",
+    "themeLight": "Clair",
+    "themeDark": "Sombre",
+    "themeAriaLabel": "Changer de thème",
+    "langAriaLabel": "Changer de langue"
+  },
+  "hero": {
+    "eyebrow": "SILLYCAT CLOUD · v0.2 · GROS WIP",
+    "titleHtml": "un cloud <span class=\"sc-underline\">stupide</span><br/>fait par une seule personne<br/>avec une <em>migraine</em>.",
+    "lede": "les fichiers passent par anubis, puis par des trucs cloudflare, puis atterrissent sur un raspberry pi posé sur mon bureau. d'une manière ou d'une autre, ils reviennent. c'est tout le concept. pas généré par IA (en général).",
+    "waitlistEyebrow": "vérifier + s'inscrire",
+    "joinWaitlist": "Rejoindre la liste d'attente",
+    "ctaNoteReady": "c'est bon, t'es prêt >:DD",
+    "ctaNoteNotReady": "résous le défi d'abord ou pas de liste d'attente pour toi",
+    "joinedTitle": "t'es sur la liste.",
+    "joinedBody": "je t'enverrai un mail quand les choses seront un peu moins cassées. merci de me supporter.",
+    "statusEyebrow": "STATUT ACTUEL",
+    "statusWebsite": "site web : en ligne",
+    "statusFileHosting": "hébergement de fichiers : WIP",
+    "statusGameServers": "serveurs de jeu : WIP",
+    "statusSleep": "sommeil : cassé"
+  },
+  "pipes": {
+    "eyebrow": "COMMENT ÇA (VA) MARCHER",
+    "heading": "le fichier passe par plein de tuyaux.",
+    "lede": "rien ici n'est en production pour le moment. c'est ce que je suis en train de construire.",
+    "foot": "l'hébergement de serveurs de jeu, c'est quasiment pareil, sauf qu'il n'y a pas anubis et ça utilise pterodactyl. je vais peut-être remplacer pterodactyl par un truc que j'aurai écrit moi-même, j'ai pas décidé.",
+    "nodes": {
+      "you":    { "label": "toi",           "sub": "upload un fichier" },
+      "anubis": { "label": "anubis",        "sub": "t'es un scraper ?" },
+      "cf":     { "label": "cloudflare",    "sub": "des trucs cloudflare" },
+      "pi":     { "label": "raspberry pi",  "sub": "posé sur mon bureau" },
+      "back":   { "label": "retour vers toi","sub": "avec un peu de chance" }
+    }
+  },
+  "discord": {
+    "eyebrow": "MISES À JOUR · MEMES · CRIS CONTRE LES BUGS",
+    "heading": "rejoins le discord. c'est surtout moi.",
+    "body": "si tu veux des nouvelles avant que j'envoie les mails, ou si tu veux me regarder comprendre ce qu'est un reverse proxy en temps réel, c'est sur le discord que ça se passe.",
+    "cta": "Rejoindre le Discord",
+    "copyInvite": "copier l'invitation",
+    "copied": "copié ✓",
+    "online": "● en ligne · 12"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "heading": "questions plus ou moins fréquentes.",
+    "items": [
+      { "q": "C'est quoi Silly Cat Cloud ?",              "a": "un fournisseur / service de cloud très stupide et lié aux chats, j'imagine. j'étais au hasard en train de m'ennuyer un jour et j'ai pensé à faire un cloud stupide. et voilà." },
+      { "q": "Est-ce que ça va être bien ?",              "a": "pour l'instant c'est pas du tout fini, donc j'en sais vraiment rien. c'est mon tout premier gros projet donc je sais pas trop ce que je fais parfois. mais ce sera le meilleur que je peux faire j'imagine." },
+      { "q": "Ça va être gratuit ?",                      "a": "très probablement. j'aime pas trop les paywalls vu qu'en général ils sont très chers. du coup je ferai ce que je peux avec les offres gratuites j'imagine (sauf pour le domaine bien sûr)." },
+      { "q": "T'as travaillé toute la journée à écrir ça ?","a": "ouais, et j'ai mal à la tête." },
+      { "q": "Quand est-ce que ça sort ?",                "a": "soit quand j'ai le temps, soit à la date que j'annoncerai dans le mail de la liste d'attente. le plus tard des deux, probablement." },
+      { "q": "pourquoi ça s'appelle sillycat",            "a": "parce que la photo de profil d'origine vient de soggy.cat et c'est, objectivement, un chat stupide. on l'a modifiée pour le mode clair/sombre et on a ajouté un halo flou pour le clair. c'est ça toute l'étendue de l'exercice de branding." }
+    ]
+  },
+  "pfp": {
+    "eyebrow": "CRÉDIT PFP",
+    "bodyHtml": "le chat d'origine vient de <a class=\"sc-link\" href=\"https://soggy.cat\" target=\"_blank\" rel=\"noreferrer\">soggy.cat</a>. on a fait une version claire/sombre et on lui a mis un petit halo flou en mode clair. c'est tout. c'est ça le remix."
+  },
+  "footer": {
+    "col1Eyebrow": "SILLYCAT.CLOUD",
+    "col1Body": "fait à coups de migraines par une seule personne. hébergé sur un raspberry pi posé sur un bureau.",
+    "col2Eyebrow": "LIENS",
+    "col2Github": "github",
+    "col2Discord": "discord",
+    "col2Soggy": "soggy.cat (pfp)",
+    "col3Eyebrow": "STATUT",
+    "col3Body": "tout ce qui existe est en ligne :D",
+    "bottom": "© 2026 · pas généré par IA (en général) · merci d'avoir lu jusqu'ici >:DD"
+  },
+  "lang": {
+    "menuHead": "langue",
+    "unavailableTitle": "cette langue n'est pas encore prête >:DD",
+    "unavailableBody": "seuls l'anglais + le français sont traduits pour l'instant. le reste est sur la to-do list (ou ouvert à qui veut bien aider). tu peux rester en {current} — rien n'a changé.",
+    "unavailableContribute": "aider à traduire sur crowdin",
+    "unavailableDismiss": "ok, d'accord"
+  }
+}

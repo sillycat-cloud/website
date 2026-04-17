@@ -4,14 +4,17 @@ import { BrowserRouter } from 'react-router-dom'
 import App from './App'
 import './index.css'
 import { ThemeContext, useThemeProvider } from './hooks/useTheme'
+import { I18nProvider } from './i18n/I18nProvider'
 
 function Root() {
   const theme = useThemeProvider()
   return (
     <ThemeContext.Provider value={theme}>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
+      <I18nProvider>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </I18nProvider>
     </ThemeContext.Provider>
   )
 }
