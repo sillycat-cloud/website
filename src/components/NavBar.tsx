@@ -1,6 +1,7 @@
 import { useTheme } from '../hooks/useTheme'
 import logoLight from '../assets/logo-light.png'
 import logoDark from '../assets/logo-dark.png'
+import LanguageSwitcher from './LanguageSwitcher'
 
 export default function NavBar() {
   const { isDark, setIsDark } = useTheme()
@@ -20,14 +21,17 @@ export default function NavBar() {
         <a href="#faq">faq</a>
         <a href="https://discord.gg/sZxmbu4ZrG" target="_blank" rel="noreferrer">discord</a>
       </div>
-      <button
-        className="sc-theme-btn"
-        onClick={() => setIsDark(!isDark)}
-        aria-label="Toggle theme"
-      >
-        <span>{isDark ? '☀️' : '🌙'}</span>
-        <span>{isDark ? 'Light' : 'Dark'}</span>
-      </button>
+      <div className="sc-nav-actions">
+        <LanguageSwitcher />
+        <button
+          className="sc-theme-btn"
+          onClick={() => setIsDark(!isDark)}
+          aria-label="Toggle theme"
+        >
+          <span>{isDark ? '☀️' : '🌙'}</span>
+          <span>{isDark ? 'Light' : 'Dark'}</span>
+        </button>
+      </div>
     </nav>
   )
 }

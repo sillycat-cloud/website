@@ -9,8 +9,6 @@ function App() {
   return (
     <div className="sc-page" id="top">
       <NavBar />
-      {/* the weird and ugly google translation widget */}
-      <div id="google_translate_element" style={{ textAlign: 'center', padding: '6px 0' }} />
       <main>
         <Hero />
         <div id="what">
