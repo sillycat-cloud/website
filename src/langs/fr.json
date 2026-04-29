@@ -32,11 +32,26 @@
     "lede": "rien ici n'est en production pour le moment. c'est ce que je suis en train de construire.",
     "foot": "l'hébergement de serveurs de jeu, c'est quasiment pareil, sauf qu'il n'y a pas anubis et ça utilise pterodactyl. je vais peut-être remplacer pterodactyl par un truc que j'aurai écrit moi-même, j'ai pas décidé.",
     "nodes": {
-      "you":    { "label": "toi",           "sub": "upload un fichier" },
-      "anubis": { "label": "anubis",        "sub": "t'es un scraper ?" },
-      "cf":     { "label": "cloudflare",    "sub": "des trucs cloudflare" },
-      "pi":     { "label": "raspberry pi",  "sub": "posé sur mon bureau" },
-      "back":   { "label": "retour vers toi","sub": "avec un peu de chance" }
+      "you": {
+        "label": "toi",
+        "sub": "upload un fichier"
+      },
+      "anubis": {
+        "label": "anubis",
+        "sub": "t'es un scraper ?"
+      },
+      "cf": {
+        "label": "cloudflare",
+        "sub": "des trucs cloudflare"
+      },
+      "pi": {
+        "label": "raspberry pi",
+        "sub": "posé sur mon bureau"
+      },
+      "back": {
+        "label": "retour vers toi",
+        "sub": "avec un peu de chance"
+      }
     }
   },
   "discord": {
@@ -52,12 +67,30 @@
     "eyebrow": "FAQ",
     "heading": "questions plus ou moins fréquentes.",
     "items": [
-      { "q": "C'est quoi Silly Cat Cloud ?",              "a": "un fournisseur / service de cloud très stupide et lié aux chats, j'imagine. j'étais au hasard en train de m'ennuyer un jour et j'ai pensé à faire un cloud stupide. et voilà." },
-      { "q": "Est-ce que ça va être bien ?",              "a": "pour l'instant c'est pas du tout fini, donc j'en sais vraiment rien. c'est mon tout premier gros projet donc je sais pas trop ce que je fais parfois. mais ce sera le meilleur que je peux faire j'imagine." },
-      { "q": "Ça va être gratuit ?",                      "a": "très probablement. j'aime pas trop les paywalls vu qu'en général ils sont très chers. du coup je ferai ce que je peux avec les offres gratuites j'imagine (sauf pour le domaine bien sûr)." },
-      { "q": "T'as travaillé toute la journée à écrir ça ?","a": "ouais, et j'ai mal à la tête." },
-      { "q": "Quand est-ce que ça sort ?",                "a": "soit quand j'ai le temps, soit à la date que j'annoncerai dans le mail de la liste d'attente. le plus tard des deux, probablement." },
-      { "q": "pourquoi ça s'appelle sillycat",            "a": "parce que la photo de profil d'origine vient de soggy.cat et c'est, objectivement, un chat stupide. on l'a modifiée pour le mode clair/sombre et on a ajouté un halo flou pour le clair. c'est ça toute l'étendue de l'exercice de branding." }
+      {
+        "q": "C'est quoi Silly Cat Cloud ?",
+        "a": "un fournisseur / service de cloud très stupide et lié aux chats, j'imagine. j'étais au hasard en train de m'ennuyer un jour et j'ai pensé à faire un cloud stupide. et voilà."
+      },
+      {
+        "q": "Est-ce que ça va être bien ?",
+        "a": "pour l'instant c'est pas du tout fini, donc j'en sais vraiment rien. c'est mon tout premier gros projet donc je sais pas trop ce que je fais parfois. mais ce sera le meilleur que je peux faire j'imagine."
+      },
+      {
+        "q": "Ça va être gratuit ?",
+        "a": "très probablement. j'aime pas trop les paywalls vu qu'en général ils sont très chers. du coup je ferai ce que je peux avec les offres gratuites j'imagine (sauf pour le domaine bien sûr)."
+      },
+      {
+        "q": "T'as travaillé toute la journée à écrir ça ?",
+        "a": "ouais, et j'ai mal à la tête."
+      },
+      {
+        "q": "Quand est-ce que ça sort ?",
+        "a": "soit quand j'ai le temps, soit à la date que j'annoncerai dans le mail de la liste d'attente. le plus tard des deux, probablement."
+      },
+      {
+        "q": "pourquoi ça s'appelle sillycat",
+        "a": "parce que la photo de profil d'origine vient de soggy.cat et c'est, objectivement, un chat stupide. on l'a modifiée pour le mode clair/sombre et on a ajouté un halo flou pour le clair. c'est ça toute l'étendue de l'exercice de branding."
+      }
     ]
   },
   "pfp": {
