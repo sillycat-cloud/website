@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
 import PipesDiagram from './components/PipesDiagram'
@@ -21,6 +22,7 @@ function App() {
       <PfpCredit />
       <Footer />
       <UnavailableLangPopup />
+      <Analytics />
     </div>
   )
 }
